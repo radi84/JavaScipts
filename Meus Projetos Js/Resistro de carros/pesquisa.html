@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>DiloCar - Pesquisa</title>
+
+    <!--Boostrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" 
+    crossorigin="anonymous">
+
+    <!--FonteWasen-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" 
+    integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" 
+    crossorigin="anonymous">
+
+    <!--Css Custom-->
+    <link rel="stylesheet" href="css/estilo.css">
+
+</head>
+<body>
+    
+    <header id='cabecalho'> <!--head-->
+
+        <div class="container"> <!--container-->
+            <div class="row">
+                <div class="col-sm d-flex justify-content-center">
+
+                  <div class="logo">
+                      <a href="painel.html"><img src="img/logo-2.png" /></a> 
+                  </div>
+                    
+                  <div class="r-sociais">
+                      <span><a href=""><i class="fab fa-facebook-square"></i></a></span>
+                      <span><a href=""><i class="fab fa-twitter"></i></a></i></span>
+                      <span><a href=""><i class="fab fa-instagram"></i></a></i></span>
+                      <span><a href=""><i class="fab fa-youtube"></i></a></i></span>
+                  </div>
+                  
+                </div>
+            </div>
+        </div> <!--// container-->
+
+        <div class="drops">
+
+            <i class="fas fa-grip-lines"></i>
+
+            <div class="drops-contant">
+                <div>
+                    <a href="painel.html">Painel</a>
+                </div>
+                <div>
+                    <a href="pesquisa.html">Pesquisa</a>
+                </div>
+            </div>
+        </div>
+
+    </header><!--//head-->
+
+    <section class="contole mt-5">
+        <div class="container" style="border-bottom: 1px solid #ccc;"> 
+
+            <div class="row sub-banner"><!--sub-banner-->
+                <div class="col-sm d-flex justify-content-center">
+                    <h2>Controle de estoque de carros</h2>
+                </div>
+            </div>
+            
+            <div class="campo-cadastro"> <!--campo cadastro-->
+                <div class="row form-group"><!--Linha 1-->
+
+                    <div class="col-sm-6">                    
+                        <input class="form-control" type="text" placeholder="Marca" id="marca">    
+                    </div>
+
+                    <div class="col-sm-3">                    
+                        <input class="form-control" type="text" placeholder="Modelo"  id="modelo" >  
+                    </div>
+
+                    <div class="col-sm-3">                    
+                        <select class="form-control" id="ano">
+                            <option value="">Ano do Veiculo</option>
+                            <option value="2015">2015</option>
+                            <option value="2016">2016</option>
+                            <option value="2017">2017</option>
+                            <option value="2018">2018</option>
+                            <option value="2019">2019</option>
+                        </select>
+                    </div>
+
+                </div><!--//Linha 1-->
+
+                <div class="row form-group"><!--Linha 2-->
+
+                    <div class="col-sm-3">                       
+                        <select class="form-control" id="alimentacao">
+                            <option value="">Alimentação</option>
+                            <option value="alcool">Alcool</option>
+                            <option value="disel">Disel</option>
+                            <option value="flex">Flex</option>
+                            <option value="gasolina">Gasolina</option>
+                            <option value="gas">Gás</option>
+                        </select>                        
+                    </div>
+                        
+                    <div class="col-sm-3">                    
+                        <input class="form-control" type="text" placeholder="Peso" id="peso">    
+                    </div>
+    
+                    <div class="col-sm-3">                    
+                        <select class="form-control" id="motor">
+                            <option value="">Motor</option>
+                            <option value="1.0">Motor 1.0</option>
+                            <option value="1.4">Motor 1.4</option>
+                            <option value="1.6">Motor 1.6</option>
+                            <option value="1.8">Motor 1.8</option>
+                            <option value="2.0">Motor 2.0</option>
+                        </select>
+                    </div>
+
+                    <div class="col-sm-3">                    
+                        <select class="form-control" id="versao">
+                            <option value="">Versão</option>
+                            <option value="2p">2 portas</option>
+                            <option value="3p">3 portas</option>
+                            <option value="4p">4 portas</option>
+                        </select>
+                    </div>
+    
+                </div><!--Linha 2-->
+
+                <div class="row form-group"><!--Linha 3-->
+
+                    <div class="col-sm-4">                       
+                        <select class="form-control" id="transmicao">
+                            <option value="">Transmição</option>
+                            <option value="manual">Manual</option>
+                            <option value="automatico">Automático</option>
+                        </select>                        
+                    </div>
+    
+                    <div class="col-sm-4">                    
+                        <select class="form-control" id="direcao">
+                            <option value="">Direção</option>
+                            <option value="mecanica">Mecânica</option>
+                            <option value="hidraulica">Hidráulica</option>
+                            <option value="eletrica">Elétrica</option>
+                        </select>
+                    </div>
+
+                    <div class="col-sm-4">                    
+                        <select class="form-control" id="freios">
+                            <option value="">Freios</option>
+                            <option value="disco">Disco</option>
+                            <option value="abs">ABS</option>
+                        </select>
+                    </div>
+    
+                </div><!--Linha 3-->
+
+                <div class="btn-enviar">
+                    <div class="row">
+                        <div class="col-sm d-flex justify-content-end">
+                            <a href="">
+                                <i class="fas fa-search mb-3" onclick=""></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div><!--// campo cadastro-->
+        </div><!--//container-->
+    </section><!--//section-->
+
+
+    
+    <!--Js custom-->
+    <script src="js/cod.js"></script>
+
+    <!--Js do Boostrap-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>

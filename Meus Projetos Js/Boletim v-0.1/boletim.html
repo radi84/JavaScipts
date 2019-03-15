@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" 
+    crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" 
+    integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" 
+    crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/estilo.css">
+
+</head>
+<body>
+    
+    <section id="calMedia">
+        <div class="container form-group">
+            <div class="row">
+                <div class="col-sm d-flex justify-content-center">
+                    
+                    <div class="banner">
+                        <h2>Calculadora de Média</h2>
+                    </div>
+
+                </div>            
+            </div>
+
+            <div class="row conteudo">
+                <div class="col-sm d-flex justify-content-center ">                    
+                    <input type="text" class="form-control" placeholder="Nome do aluno" id="nomeAluno">
+                </div>
+            </div>
+
+            <div class="row conteudo form-goup" > 
+                <div class="col-sm d-flex justify-content-center ">                        
+                    <select name="" class="form-control" id="materia">
+                        <option value="">Matéria</option>
+                        <option value="portugue">Português</option>
+                        <option value="matematica">Matemática</option>
+                        <option value="geografia">Geografia</option>
+                        <option value="historia">História</option>
+                        <option value="ciencia">Ciência</option>
+                        <option value="fisica">Física</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="row conteudo">
+                <div class="col-sm d-flex justify-content-center ">                        
+                    <input type="text" class="form-control" placeholder="Nota da P1" id="notaP1">
+                </div>
+            </div>
+
+            <div class="row conteudo">
+              <div class="col-sm d-flex justify-content-center ">                        
+                   <input type="text" class="form-control" placeholder="Nota da P2" id="notaP2">
+               </div>
+            </div>
+
+            <div class="row conteudo">
+                <div class="col-sm d-flex justify-content-center ">                        
+                    <input type="text" class="form-control" placeholder="Nota do texte" id="notaTexte">
+                </div>
+            </div>
+
+            <div class="row conteudo">
+                <div class="col-sm d-flex justify-content-center ">                        
+                    <input type="text" class="form-control" placeholder="Nota do Tb" id="notaTb">
+                </div>
+            </div>
+
+            <div class="row conteudo form-row">
+                <div class="col-sm d-fex">
+                    <button class="btn btn-primary" id="btn" onclick="inscFormulario()"> 
+                        <i class="fas fa-plus-square"></i>
+                    </button>
+                </div>
+
+                <!--<div class="col-sm d-fex">
+                    <input type="text" class="form-control" placeholder="Média" disabled="disabled" id="media">
+                </div>-->
+            </div>            
+
+        </div>
+    </section>
+
+
+
+        
+        
+    </div>    
+
+
+
+    <script src="js/boletim.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
